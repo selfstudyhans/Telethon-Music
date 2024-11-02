@@ -1,13 +1,13 @@
 import os
 
 class Config(object):
-    API_ID =22049318 int(os.environ.get("API_ID", "6213538"))
-    API_HASH =f3f1ff073b35b28792c6c197b6474f82 os.environ.get("API_HASH", "8ce3522bd21cc937eee4c68813d501d5")
-    BOT_TOKEN =8184535242:AAEbTs-57ac353KMApUmwaW97dtOBLNxUsM os.environ.get("BOT_TOKEN", None)
+    API_ID = int(os.environ.get("API_ID", "22049318"))
+    API_HASH = os.environ.get("API_HASH", "f3f1ff073b35b28792c6c197b6474f82")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = @shauryapr_bot os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@shauryapr_bot")
     SUPPORT =https://t.me/+K_o_uEDLAygxODI1 os.environ.get("SUPPORT", "TheSupportChat") # Your Support
     CHANNEL =https://t.me/+RTvuyT5kaKY3ODA1 os.environ.get("CHANNEL", "TheUpdatesChannel") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
